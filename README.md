@@ -7,3 +7,12 @@ This clock uses a spinning light mask with evenly spaced holes. The light mask i
 
 The current plan is to have at least 7 dots or "pixels" tall in the spinning light mask. If I can add an additional 6 dots placed precicely between the first 7 dots I can make a solid line out of the dots. If possible, worth experimenting with. The spinning light mask will likely be 3D printed.
 
+Improvements over V2.0
+  1. Using a buffer to ensure the MCU is seeing proper HIGH and LOW levels from the IR reflective sensor
+  2. Powered from USB-C. 
+  3. Using APA102-2020 LEDs. These are 25X faster than WS2812B (Neopixels) and are 60% smaller allowing me to update faster and place more in the same space.
+  4. Using several small holes in the light mask rather than 1 slit. This allows me to draw text instead of just clock hands.
+  5. Elimination of wires for assembly. Power and data connections between the driver board and the LED board are passed between SMT PCB spring pins. This will simplify assembly and clean up the look.
+  6. Right angle buttons and right angle encoder for human interface.
+  7. Updated LED board shape aiding in heat disapation, consistent placement of the HDD data arm.
+
