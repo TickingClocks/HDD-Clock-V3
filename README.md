@@ -1,5 +1,5 @@
 # HDD-Clock-V3.0
-Hard Drive Persistence of Vision Clock V3.0
+Hard Drive Persistence of Vision Clock V3.0  -  In Progress
 
 This project is the third version of my Hard Drive Persistence of Vision Clock. This clock is built around a Dell MBE2147RC 2.5" HDD. The clock uses the spindle motor, Case, and 1 of the platters modified to be a spinning light mask. PCB versions of the spinning light masks are also being tested.
 
